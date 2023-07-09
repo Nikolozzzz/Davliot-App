@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77721662A5AEF04004B0926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77721652A5AEF04004B0926 /* AppDelegate.swift */; };
+		F77721682A5AEF04004B0926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77721672A5AEF04004B0926 /* SceneDelegate.swift */; };
+		F777216A2A5AEF04004B0926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77721692A5AEF04004B0926 /* ViewController.swift */; };
+		F777216D2A5AEF04004B0926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F777216B2A5AEF04004B0926 /* Main.storyboard */; };
+		F77721702A5AEF04004B0926 /* Davliot_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F777216E2A5AEF04004B0926 /* Davliot_App.xcdatamodeld */; };
+		F77721722A5AEF04004B0926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77721712A5AEF04004B0926 /* Assets.xcassets */; };
+		F77721752A5AEF04004B0926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77721732A5AEF04004B0926 /* LaunchScreen.storyboard */; };
+		F77721802A5AEF05004B0926 /* Davliot_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777217F2A5AEF05004B0926 /* Davliot_AppTests.swift */; };
+		F777218A2A5AEF05004B0926 /* Davliot_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77721892A5AEF05004B0926 /* Davliot_AppUITests.swift */; };
+		F777218C2A5AEF05004B0926 /* Davliot_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777218B2A5AEF05004B0926 /* Davliot_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F777217C2A5AEF05004B0926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F777215A2A5AEF04004B0926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77721612A5AEF04004B0926;
+			remoteInfo = "Davliot App";
+		};
+		F77721862A5AEF05004B0926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F777215A2A5AEF04004B0926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77721612A5AEF04004B0926;
+			remoteInfo = "Davliot App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77721622A5AEF04004B0926 /* Davliot App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davliot App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77721652A5AEF04004B0926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77721672A5AEF04004B0926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F77721692A5AEF04004B0926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F777216C2A5AEF04004B0926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F777216F2A5AEF04004B0926 /* Davliot_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Davliot_App.xcdatamodel; sourceTree = "<group>"; };
+		F77721712A5AEF04004B0926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77721742A5AEF04004B0926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77721762A5AEF04004B0926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F777217B2A5AEF05004B0926 /* Davliot AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davliot AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F777217F2A5AEF05004B0926 /* Davliot_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davliot_AppTests.swift; sourceTree = "<group>"; };
+		F77721852A5AEF05004B0926 /* Davliot AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davliot AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77721892A5AEF05004B0926 /* Davliot_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davliot_AppUITests.swift; sourceTree = "<group>"; };
+		F777218B2A5AEF05004B0926 /* Davliot_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davliot_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F777215F2A5AEF04004B0926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721782A5AEF05004B0926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721822A5AEF05004B0926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77721592A5AEF04004B0926 = {
+			isa = PBXGroup;
+			children = (
+				F77721642A5AEF04004B0926 /* Davliot App */,
+				F777217E2A5AEF05004B0926 /* Davliot AppTests */,
+				F77721882A5AEF05004B0926 /* Davliot AppUITests */,
+				F77721632A5AEF04004B0926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77721632A5AEF04004B0926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77721622A5AEF04004B0926 /* Davliot App.app */,
+				F777217B2A5AEF05004B0926 /* Davliot AppTests.xctest */,
+				F77721852A5AEF05004B0926 /* Davliot AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77721642A5AEF04004B0926 /* Davliot App */ = {
+			isa = PBXGroup;
+			children = (
+				F77721652A5AEF04004B0926 /* AppDelegate.swift */,
+				F77721672A5AEF04004B0926 /* SceneDelegate.swift */,
+				F77721692A5AEF04004B0926 /* ViewController.swift */,
+				F777216B2A5AEF04004B0926 /* Main.storyboard */,
+				F77721712A5AEF04004B0926 /* Assets.xcassets */,
+				F77721732A5AEF04004B0926 /* LaunchScreen.storyboard */,
+				F77721762A5AEF04004B0926 /* Info.plist */,
+				F777216E2A5AEF04004B0926 /* Davliot_App.xcdatamodeld */,
+			);
+			path = "Davliot App";
+			sourceTree = "<group>";
+		};
+		F777217E2A5AEF05004B0926 /* Davliot AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F777217F2A5AEF05004B0926 /* Davliot_AppTests.swift */,
+			);
+			path = "Davliot AppTests";
+			sourceTree = "<group>";
+		};
+		F77721882A5AEF05004B0926 /* Davliot AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77721892A5AEF05004B0926 /* Davliot_AppUITests.swift */,
+				F777218B2A5AEF05004B0926 /* Davliot_AppUITestsLaunchTests.swift */,
+			);
+			path = "Davliot AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77721612A5AEF04004B0926 /* Davliot App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F777218F2A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot App" */;
+			buildPhases = (
+				F777215E2A5AEF04004B0926 /* Sources */,
+				F777215F2A5AEF04004B0926 /* Frameworks */,
+				F77721602A5AEF04004B0926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Davliot App";
+			productName = "Davliot App";
+			productReference = F77721622A5AEF04004B0926 /* Davliot App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F777217A2A5AEF05004B0926 /* Davliot AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77721922A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot AppTests" */;
+			buildPhases = (
+				F77721772A5AEF05004B0926 /* Sources */,
+				F77721782A5AEF05004B0926 /* Frameworks */,
+				F77721792A5AEF05004B0926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F777217D2A5AEF05004B0926 /* PBXTargetDependency */,
+			);
+			name = "Davliot AppTests";
+			productName = "Davliot AppTests";
+			productReference = F777217B2A5AEF05004B0926 /* Davliot AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77721842A5AEF05004B0926 /* Davliot AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77721952A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot AppUITests" */;
+			buildPhases = (
+				F77721812A5AEF05004B0926 /* Sources */,
+				F77721822A5AEF05004B0926 /* Frameworks */,
+				F77721832A5AEF05004B0926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77721872A5AEF05004B0926 /* PBXTargetDependency */,
+			);
+			name = "Davliot AppUITests";
+			productName = "Davliot AppUITests";
+			productReference = F77721852A5AEF05004B0926 /* Davliot AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F777215A2A5AEF04004B0926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F77721612A5AEF04004B0926 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F777217A2A5AEF05004B0926 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F77721612A5AEF04004B0926;
+					};
+					F77721842A5AEF05004B0926 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F77721612A5AEF04004B0926;
+					};
+				};
+			};
+			buildConfigurationList = F777215D2A5AEF04004B0926 /* Build configuration list for PBXProject "Davliot App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77721592A5AEF04004B0926;
+			productRefGroup = F77721632A5AEF04004B0926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77721612A5AEF04004B0926 /* Davliot App */,
+				F777217A2A5AEF05004B0926 /* Davliot AppTests */,
+				F77721842A5AEF05004B0926 /* Davliot AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77721602A5AEF04004B0926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77721752A5AEF04004B0926 /* LaunchScreen.storyboard in Resources */,
+				F77721722A5AEF04004B0926 /* Assets.xcassets in Resources */,
+				F777216D2A5AEF04004B0926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721792A5AEF05004B0926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721832A5AEF05004B0926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F777215E2A5AEF04004B0926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F777216A2A5AEF04004B0926 /* ViewController.swift in Sources */,
+				F77721662A5AEF04004B0926 /* AppDelegate.swift in Sources */,
+				F77721682A5AEF04004B0926 /* SceneDelegate.swift in Sources */,
+				F77721702A5AEF04004B0926 /* Davliot_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721772A5AEF05004B0926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77721802A5AEF05004B0926 /* Davliot_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77721812A5AEF05004B0926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F777218C2A5AEF05004B0926 /* Davliot_AppUITestsLaunchTests.swift in Sources */,
+				F777218A2A5AEF05004B0926 /* Davliot_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F777217D2A5AEF05004B0926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77721612A5AEF04004B0926 /* Davliot App */;
+			targetProxy = F777217C2A5AEF05004B0926 /* PBXContainerItemProxy */;
+		};
+		F77721872A5AEF05004B0926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77721612A5AEF04004B0926 /* Davliot App */;
+			targetProxy = F77721862A5AEF05004B0926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F777216B2A5AEF04004B0926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F777216C2A5AEF04004B0926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77721732A5AEF04004B0926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77721742A5AEF04004B0926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F777218D2A5AEF05004B0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F777218E2A5AEF05004B0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77721902A5AEF05004B0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Davliot App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77721912A5AEF05004B0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Davliot App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77721932A5AEF05004B0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davliot App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davliot App";
+			};
+			name = Debug;
+		};
+		F77721942A5AEF05004B0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davliot App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davliot App";
+			};
+			name = Release;
+		};
+		F77721962A5AEF05004B0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davliot App";
+			};
+			name = Debug;
+		};
+		F77721972A5AEF05004B0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8B8297CH37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolozbotchoradze.Davliot-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davliot App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F777215D2A5AEF04004B0926 /* Build configuration list for PBXProject "Davliot App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F777218D2A5AEF05004B0926 /* Debug */,
+				F777218E2A5AEF05004B0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F777218F2A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77721902A5AEF05004B0926 /* Debug */,
+				F77721912A5AEF05004B0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77721922A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77721932A5AEF05004B0926 /* Debug */,
+				F77721942A5AEF05004B0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77721952A5AEF05004B0926 /* Build configuration list for PBXNativeTarget "Davliot AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77721962A5AEF05004B0926 /* Debug */,
+				F77721972A5AEF05004B0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F777216E2A5AEF04004B0926 /* Davliot_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F777216F2A5AEF04004B0926 /* Davliot_App.xcdatamodel */,
+			);
+			currentVersion = F777216F2A5AEF04004B0926 /* Davliot_App.xcdatamodel */;
+			path = Davliot_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F777215A2A5AEF04004B0926 /* Project object */;
+}
